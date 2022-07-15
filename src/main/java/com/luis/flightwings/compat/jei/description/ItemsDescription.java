@@ -14,6 +14,6 @@ public class ItemsDescription {
 
         IIngredientType<ItemStack> itemType = ingredientManager.getIngredientType(ItemStack.class);
 
-        registry.addIngredientInfo(new ItemStack(ModItems.FLIGHT_WING_GOLD.get()), itemType, new TranslatableComponent("description.flight_wings_gold"), ServerConfig.WINGS_EFFECT_CONSUME_XP.get() ? new TranslatableComponent("description.flight_wings_gold.ability", ServerConfig.WINGS_EFFECT_USE_XP.get()) : new TranslatableComponent("description.flight_wings_gold.ability.no_cost"));
+        registry.addIngredientInfo(new ItemStack(ModItems.FLIGHT_WING_GOLD.get()), itemType, new TranslatableComponent("description.flight_wings_gold"), ServerConfig.WINGS_EFFECT.get() ? ServerConfig.WINGS_EFFECT_CONSUME_XP.get() ? new TranslatableComponent("description.flight_wings_gold.ability", ServerConfig.WINGS_EFFECT_USE_XP.get()) : new TranslatableComponent("description.flight_wings_gold.ability.no_cost") : null);
     }
 }

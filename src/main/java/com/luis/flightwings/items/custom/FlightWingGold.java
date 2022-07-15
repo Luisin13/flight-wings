@@ -41,10 +41,12 @@ public class FlightWingGold extends Item {
         if(Screen.hasShiftDown()) {
             pTooltipComponent.add(new TranslatableComponent("tooltip.flight_wings_gold.shift.down.1"));
             pTooltipComponent.add(new TranslatableComponent("tooltip.flight_wings_gold.shift.down.2"));
-            if (ServerConfig.WINGS_EFFECT_CONSUME_XP.get()) {
-                pTooltipComponent.add(new TranslatableComponent("tooltip.flight_wings_gold.shift.down.special", ServerConfig.WINGS_EFFECT_USE_XP.get()));
-            } else {
-                pTooltipComponent.add(new TranslatableComponent("tooltip.flight_wings_gold.shift.down.special.no_cost"));
+            if(ServerConfig.WINGS_EFFECT.get()) {
+                if (ServerConfig.WINGS_EFFECT_CONSUME_XP.get()) {
+                    pTooltipComponent.add(new TranslatableComponent("tooltip.flight_wings_gold.shift.down.special", ServerConfig.WINGS_EFFECT_USE_XP.get()));
+                } else {
+                    pTooltipComponent.add(new TranslatableComponent("tooltip.flight_wings_gold.shift.down.special.no_cost"));
+                }
             }
         } else {
             pTooltipComponent.add(new TranslatableComponent("tooltip.flight_wings_gold.shift"));
@@ -127,9 +129,10 @@ public class FlightWingGold extends Item {
                 } else  {
                     Flight.StopFlight(player);
                 }
+
+                player.getCooldowns().addCooldown(this, 10);
             }
         }
-        player.getCooldowns().addCooldown(this, 10);
         return super.use(level, player, interactionHand);
     }
 
