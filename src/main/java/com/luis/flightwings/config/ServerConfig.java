@@ -16,7 +16,7 @@ public class ServerConfig {
         BUILDER.push("Configuration for Flight Wings mod");
 
         WINGS_EFFECT = BUILDER.comment("Wings can give potion effect on hotkey press")
-                .define("Wings give potion effect", false);
+                .define("Wings give potion effect", true);
 
         WINGS_EFFECT_DURATION = BUILDER.comment("Wings effect duration, only affect if wings effects is activated")
                 .defineInRange("Wings potion effect duration", 30, 5, 300);
@@ -25,7 +25,7 @@ public class ServerConfig {
                 .defineInRange("Wings potion effect amplifier", 1, 1, 3);
 
         WINGS_EFFECT_CONSUME_XP = BUILDER.comment("Wings when used the potion effect consume XP, only affect if wings effects is activated")
-                .define("Wings effect consume XP", false);
+                .define("Wings effect consume XP", true);
 
         WINGS_EFFECT_USE_XP = BUILDER.comment("Wings effect xp consumption, only affect if wings effects consume XP is activated")
                 .defineInRange("Wings effect consumption by use", 1, 1, 10);
