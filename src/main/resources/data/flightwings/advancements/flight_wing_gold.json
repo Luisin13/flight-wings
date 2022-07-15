@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "flightwings:flight_wing_gold"
+    },
+    "title": {
+      "translate": "advancements.flightwings.flight_wing_gold.title"
+    },
+    "description": {
+      "translate": "advancements.flightwings.flight_wing_gold.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/diamond_block.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flightwings:flight_wing_gold"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

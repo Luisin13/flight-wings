@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NEN",
+    "GDG",
+    " P "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "minecraft:elytra"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "P": {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {"Potion": "minecraft:swiftness"}
+    }
+  },
+  "result": {
+    "item": "flightwings:flight_wing_gold"
+  }
+}

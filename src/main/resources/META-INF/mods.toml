@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="GNU GPLv3"
+[[mods]]
+modId="flightwings"
+version="${file.jarVersion}"
+displayName="Flight Wings"
+logoFile="flight_wings_logo.png"
+authors="Luis"
+description='''
+A simple mod that adds wings item that let you fly, but also they have special abilities
+'''
+[[dependencies.flightwings]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.flightwings]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.flightwings]]
+    modId="jei"
+    mandatory=false
+    versionRange="[9.7.0.209,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.flightwings]]
+    modId="jeed"
+    mandatory=false
+    versionRange="[1.18.2-1.11,)"
+    ordering="NONE"
+    side="BOTH"
+

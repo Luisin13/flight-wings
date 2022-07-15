@@ -1,0 +1,15 @@
+{
+  "advancements.flightwings.flight_wing_gold.description": "Agora em \u00A76ouro\u00A7r puro.",
+  "advancements.flightwings.flight_wing_gold.title": "Voe como no criativo!",
+  "description.flight_wings_gold": "Faz voc\u00EA voar como no criativo, agora em \u00A76ouro\u00A7r puro!",
+  "description.flight_wings_gold.ability": "\u00A76SHIFT-Bot\u00E3o Direito\u00A7r ativa a habilidade especial, mas usa %s leveis de XP!",
+  "description.flight_wings_gold.ability.no_cost": "\u00A76SHIFT-Bot\u00E3o Direito\u00A7r ativa a habilidade especial!",
+  "item.flightwings.flight_wing_gold": "Asa de Voo Dourada",
+  "itemGroup.flightwings": "Flight Wings",
+  "message.flight_wing_gold.not_enough_xp": "Voc\u00EA n\u00E3o pode usar o efeito de asa agora, n\u00E3o h\u00E1 n\u00EDvel de experi\u00EAncia suficiente!",
+  "tooltip.flight_wings_gold.shift": "Aperte \u00A76SHIFT\u00A7r para mais informa\u00E7\u00F5es.",
+  "tooltip.flight_wings_gold.shift.down.1": "Voe como no criativo!",
+  "tooltip.flight_wings_gold.shift.down.2": "Agora em \u00A76ouro\u00A7r puro.",
+  "tooltip.flight_wings_gold.shift.down.special": "\u00A76SHIFT-Bot\u00E3o Direito\u00A7r ativa a habilidade especial, mas usa %s leveis de XP!",
+  "tooltip.flight_wings_gold.shift.down.special.no_cost": "\u00A76SHIFT-Bot\u00E3o Direito\u00A7r ativa a habilidade especial!"
+}

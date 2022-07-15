@@ -1,0 +1,17 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:haste"
+  },
+  "providers": [
+    {
+      "item": "flightwings:flight_wing_gold"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jeed"
+    }
+  ]
+}

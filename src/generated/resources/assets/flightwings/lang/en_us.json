@@ -1,0 +1,15 @@
+{
+  "advancements.flightwings.flight_wing_gold.description": "Now in pure \u00A76gold\u00A7r.",
+  "advancements.flightwings.flight_wing_gold.title": "Fly like creative!",
+  "description.flight_wings_gold": "Makes you fly like in the creative, now in pure \u00A76gold\u00A7r!",
+  "description.flight_wings_gold.ability": "\u00A76SHIFT-Right Click\u00A7r activates special ability, but uses %s XP levels!",
+  "description.flight_wings_gold.ability.no_cost": "\u00A76SHIFT-Right Click\u00A7r activates special ability!",
+  "item.flightwings.flight_wing_gold": "Golden Flight Wing",
+  "itemGroup.flightwings": "Flight Wings",
+  "message.flight_wing_gold.not_enough_xp": "You can't use the wing effect now, not enough experience level!",
+  "tooltip.flight_wings_gold.shift": "Press \u00A76SHIFT\u00A7r for more information.",
+  "tooltip.flight_wings_gold.shift.down.1": "Fly like creative!",
+  "tooltip.flight_wings_gold.shift.down.2": "Now in pure \u00A76gold\u00A7r.",
+  "tooltip.flight_wings_gold.shift.down.special": "\u00A76SHIFT-Right Click\u00A7r activates special ability, but uses %s XP levels!",
+  "tooltip.flight_wings_gold.shift.down.special.no_cost": "\u00A76SHIFT-Right Click\u00A7r activates special ability!"
+}
